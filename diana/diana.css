@@ -1,0 +1,225 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Calibri;
+	font-size: 0.6em;
+	color: #232323;
+	text-align: center;
+	background-color: #232323;
+}
+ 
+h2 {
+	margin: 0;
+	margin-bottom: 25px;
+	padding: 10px;
+	color: white;
+	background-color: black;
+}
+
+#one p {
+	margin: 0px;
+	padding: 253px 10px 10px 5px;
+	float: left;
+}
+
+#two p {
+	margin: 0px;
+	padding: 227px 10px 10px 5px;
+	float: left;
+}
+
+#three p {
+	margin: 0px;
+	padding: 201px 10px 10px 5px;
+	float: left;
+	color: white;
+}
+
+#four p {
+	margin: 0px;
+	padding: 175px 10px 10px 5px;
+	float: left;
+	color: white;
+}
+
+#five p {
+	margin: 0px;
+	padding: 149px 10px 10px 5px;
+	float: left;
+	color: #003893;
+}
+
+#six p {
+	margin: 0px;
+	padding: 123px 10px 10px 5px;
+	float: left;
+	color: #003893;
+}
+
+#seven p {
+	margin: 0px;
+	padding: 97px 10px 10px 5px;
+	float: left;
+	color: #6b0000;
+}
+
+#eigth p {
+	margin: 0px;
+	padding: 71px 10px 10px 5px;
+	float: left;
+	color: #6b0000;
+}
+
+#nine p {
+	margin: 0px;
+	padding: 45px 10px 10px 10px;
+	float: left;
+	color: #494900;
+}
+
+#ten p {
+	margin: 0px;
+	padding: 14px 10px 10px 0px;
+	float: left;
+	color: #494900;
+}
+
+#end p {
+	position: relative;
+	bottom: 38px;
+	left: 3px;
+	margin: 0px;
+	float: left;
+	color: black;
+}
+
+#page-container{
+	width: 680px;
+	height: 600px;
+	margin: auto;
+	background-color: #F2F2F2;
+}
+
+#one {
+	height: 500px;
+	width: 500px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid black;
+	border-radius: 1000px;
+	background-color: white;
+}
+
+#two {
+	height: 450px;
+	width: 450px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #b0b0b2;
+	border-radius: 1000px;
+	background-color: white;
+}
+
+#three {
+	height: 400px;
+	width: 400px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid black;
+	border-radius: 1000px;
+	background-color: black;
+}
+
+#four {
+	height: 350px;
+	width: 350px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid white;
+	border-radius: 1000px;
+	background-color: black;
+}
+
+#five {
+	height: 300px;
+	width: 300px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #003893;
+	border-radius: 1000px;
+	background-color: #3abcf4;
+}
+
+#six {
+	height: 250px;
+	width: 250px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #004c70;
+	border-radius: 1000px;
+	background-color: #3abcf4;
+}
+
+#seven {
+	height: 200px;
+	width: 200px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #930000;
+	border-radius: 1000px;
+	background-color: #ff0000;
+}
+
+#eigth {
+	height: 150px;
+	width: 150px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #8c0200;
+	border-radius: 1000px;
+	background-color: #ff0000;
+}
+
+#nine {
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid black;
+	border-radius: 1000px;
+	background-color: #f4c902;
+}
+
+#ten {
+	height: 40px;
+	width: 40px;
+	margin: auto;
+	margin-top: 25px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #3b342c;
+	border-radius: 1000px;
+	background-color: #f4c902;
+}
+
+#end {
+	height: 8px;
+	width: 8px;
+	margin: auto;
+	margin-top: 10px;
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #3b342c;
+	border-radius: 1000px;
+	background-color: #f4c902;
+}

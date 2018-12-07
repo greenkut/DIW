@@ -1,0 +1,194 @@
+/* Uso una imagen como fondo-textura*/
+body {
+	margin: 0px;
+	background-image: url("images/halloween-background.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#page-container {
+	margin: auto;
+	width: 1200px;
+	height: auto;
+}
+
+/* Uso una imagen como borde*/
+#page-container #header {
+	margin: 1em 0em;
+	height: auto;
+	background-color: white;
+	border: 40px solid transparent;
+	border-radius: 30px;
+	border-image: url("images/hormigas.png");
+	border-image-slice: 70;
+	border-image-repeat: round;
+	opacity: 0.9;
+}
+
+/* Uso TEXT-SHADOW */
+#page-container #header h1 {
+	margin: 0;
+	margin-left: 0.3em;
+	padding: 0px;
+	font-size: 90px;
+	font-family: 'Spicy Rice', cursive;
+	text-shadow: 6px 6px black;
+	color: orange;
+	opacity: 1;
+}
+
+/* Uso TEXT-SHADOW */
+#page-container #header .menu {
+	float: right;
+	font-size: 1.6em;
+	position: relative;
+	right: 1em;
+	bottom: 2.6em;
+	margin: 5px;
+	width:auto;
+	height: auto;
+	font-family: 'Spicy Rice', cursive;
+	text-shadow: 3px 3px black;
+}
+ 
+#header .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header .menu  li {
+    float: left;
+}
+
+/* COMBINO SPRITE Y GRADIENTS, la imagen que uso 
+de fondo es un SPRITE, compuesto de 2 imagenes que a su vez son gradients */
+#header .menu ul li a {
+    padding: 14px 12px;
+    background: url(images/spritesheet.png) no-repeat;
+    color: orange;
+    text-decoration: none;
+}
+
+/* COMBINO SPRITE Y GRADIENTS, la imagen que uso 
+de fondo es un SPRITE, compuesto de 2 imagenes que a su vez son gradients */
+#header .menu ul li a:hover {
+	background: url(images/spritesheet.png) no-repeat;
+	background-position: -5px -165px;
+}
+
+/* Uso una imagen como borde*/
+#page-container #aside {
+	float: right;
+	margin: auto;
+	height: auto;
+	width: 210px;
+	background-color: white;
+	border: 40px solid transparent;
+	border-radius: 30px;
+	border-image: url("images/hormigas.png");
+	border-image-slice: 70;
+	border-image-repeat: round;
+	opacity: 0.9;
+}
+
+/* Uso TEXT-SHADOW */
+#page-container #aside h4 {
+	margin-left: 0.5em;
+	font-size: 2em;
+	font-family: 'Spicy Rice', cursive;
+	text-shadow: 2px 2px black;
+	color: orange;
+}
+
+/* Uso un icono en la lista*/
+#page-container #aside .nav ul li {
+	width: 150px;
+	margin-left: 5px;
+	list-style-type: none;
+	list-style-image: url("images/calavera-humana_active.png");
+}
+
+/* Uso un icono en la lista*/
+#page-container #aside .nav ul li:hover {
+	list-style-image: url("images/calavera-humana_hover.png");
+}
+
+/* Uso TEXT-SHADOW */
+#aside .nav ul li a {
+	font-family: 'Spicy Rice', cursive;
+	font-size: 1.2em;
+	text-shadow: 1px 1px orange;
+	color: black;
+}
+
+/* Uso TEXT-SHADOW */
+#aside .nav ul li a:hover {
+	text-shadow: 1px 1px black;
+	color: orange;
+}
+
+/* Uso una imagen como borde*/
+#page-container #section {
+	float: left;
+	margin: auto;
+	height: auto;
+	width: 810px;
+	background-color: white;
+	border: 40px solid transparent;
+	border-radius: 30px;
+	border-image: url("images/hormigas.png");
+	border-image-slice: 70;
+	border-image-repeat: round;
+	opacity: 0.9;
+}
+
+/* Uso TEXT-SHADOW */
+#page-container #section .article h4 {
+	margin-left: 0.5em;
+	font-size: 2em;
+	font-family: 'Spicy Rice', cursive;
+	text-shadow: 2px 2px black;
+	color: orange;
+}
+
+/* Uso BOX-SHADOW */
+#page-container #section .article figure img {
+	margin: 0;
+	height: 28em;
+	width: 42em;
+	border-radius: 20px;
+	-webkit-box-shadow: 3px 3px;
+	opacity: 1;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+}
+
+#page-container #section .article figure img:hover {
+ 	-webkit-transform: scale(1.05);
+ 	-moz-transform: scale(1.05);
+}
+
+/* Uso TEXT-SHADOW */
+#page-container #section .article p {
+	margin: 25px;
+	font-size: 1.5em;
+	font-family: 'Merriweather', serif;
+	text-shadow: 1px 1px orange;
+	color: black;
+}
+
+/* Uso TEXT-SHADOW */
+#page-container #footer {
+	float: left;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	height: auto;
+	width: 1200px;
+	text-align: center;
+	font-family: 'Roboto Mono';
+	font-weight: bold;
+	font-size: 1.6em;
+	text-shadow: 2px 2px black;
+	color: orange;
+}

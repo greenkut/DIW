@@ -1,0 +1,303 @@
+body {
+	margin: 0px;
+	text-align: center;
+	font-family: 'Tangerine';
+	background-image: url("images/background.jpg");
+	background-size: cover;
+  background-attachment: fixed;
+}
+
+#page-container {
+	margin: auto;
+	width: 1200px;
+	height: auto;
+}
+
+#header {
+	margin: 90px 10px 40px 10px;
+	height: 200px;
+}
+
+#page-container #header h1 {
+	margin: 20px auto;
+	font-size: 5em;
+	color: black;
+  animation-name: title;
+  animation-delay: 1s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+	width: 70px;
+	padding: 10px;
+	animation-timing-function: linear;
+	transform-style: preserve-3d;
+}
+
+@keyframes title {
+	from {transform: rotateY(0deg)}
+  to {transform: rotateY(-360deg)}
+	20%  {color:white}
+  40%  {color:yellow}
+  60%  {color:blue}
+ 	80%  {color:green}
+  100% {color:darkred}
+}
+
+.header-nav {
+	text-align: center;
+	margin: 20px 5px 40px 5px;
+  position: relative;
+  z-index: 1000;
+ 	font-family: 'Calibri';
+}
+
+.header-nav ul {
+	list-style: none;
+  padding: 0;
+ 	margin: 0;
+  font-size: 0;
+  display: inline-block;
+}
+
+.header-nav ul li {
+  background-color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.header-nav ul li .children {
+	position: absolute;
+  left: 0;
+  top: 100%;
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  margin-top: -5px;
+  border-top: 1px solid #fff;
+}
+
+.header-nav ul li .children.nav-active {
+	opacity: 1;
+	visibility: visible;
+  margin-top: 0;
+}
+
+.header-nav ul li .children.nav-active li {
+	opacity: 1;
+}
+
+.header-nav ul li .children li {
+	border-bottom: 1px solid #fff;
+  background-color: #303030;
+  opacity: 0;
+}
+
+.header-nav ul li .children li:nth-child(1) {
+	transition: opacity 1s ease-in-out;
+}
+
+.header-nav ul li .children li:nth-child(2) {
+	transition: opacity 1s ease-in-out;
+}
+
+.header-nav ul li .children li:nth-child(3) {
+	transition: opacity 1s ease-in-out;
+}
+
+.header-nav ul li .children li:nth-child(4) {
+	transition: opacity 1s ease-in-out;
+}
+
+.header-nav ul li .children li:nth-child(5) {
+	transition: opacity 1s ease-in-out;
+}
+
+.header-nav ul li .children li:hover {
+	background-color: darkblue;
+}
+
+.header-nav > ul > li {
+	display: inline-block;
+  position: relative;
+  transform: skewX(30deg);
+  border-right: 2px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.header-nav > ul > li:hover .children {
+	color: red;
+  opacity: 1;
+  visibility: visible;
+  margin-top: 0;
+}
+
+.header-nav > ul > li:hover .children li {
+	opacity: 1;
+}
+
+.header-nav > ul > li a {
+	color: #fff;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  transform: skewX(-30deg);
+}
+
+#section {
+	margin: auto;
+	height: 1200px;
+}
+
+figure {
+	float: left;
+  position: relative;
+  margin: 15px;
+ 	padding: 10px;
+ 	background-color: white;
+ 	box-shadow: 1px 2px 3px black;
+  cursor: pointer;
+  transition: 2s;
+}
+
+#page-container #section figure img {
+	margin: 0px;
+	height: 250px;
+	opacity: 0.5;
+	-webkit-transition:all 1.5s ease; /* Safari y Chrome*/
+	-moz-transition:all 1.5s ease; /* Firefox*/
+}
+
+#page-container #section figure:hover img {
+	filter: sepia(60%);
+	opacity: 1.0;
+}
+
+#page-container #section figure:hover {
+	box-shadow: 5px 10px 100px black;
+ 	z-index: 5;
+ 	transform: rotate(720deg) scale(1.25);
+}
+
+#page-container #section figcaption {
+	margin: 10px;
+	font-family: 'Cedarville Cursive', cursive;
+	font-size: 32px;
+}
+
+figure.pic1 {
+	-webkit-transform : rotate(-2deg);
+  z-index: 1;
+}
+
+figure.pic2 {
+  -webkit-transform : rotate(5deg);
+ 	z-index: 2;
+}
+
+figure.pic3 {
+	position: relative;
+	top: 300px;
+  -webkit-transform : rotate(-8deg);
+  z-index: 1;
+}
+
+figure.pic4 {
+	position: relative;
+	top: 300px;
+  -webkit-transform : rotate(5deg);
+  z-index:1;
+}
+
+figure.pic5 {
+  -webkit-transform : rotate(10deg);
+  z-index:1;
+}
+
+figure.pic6 {
+  -webkit-transform : rotate(-12deg);
+  z-index:1;
+}
+
+figure.pic7 {
+ 	-webkit-transform : rotate(35deg);
+  z-index:1;
+}
+
+figure.pic8 {
+  -webkit-transform : rotate(-60deg);
+  z-index:1;
+}
+
+figure.pic9 {
+  -webkit-transform : rotate(-1deg);
+  z-index:1;
+}
+
+figure.pic10 {
+  -webkit-transform : rotate(5deg);
+  z-index:1;
+}
+
+figure.pic11 {
+ 	-webkit-transform : rotate(-6deg);
+  z-index:1;
+}
+
+figure.pic12 {
+ 	-webkit-transform : rotate(4deg);
+ 	z-index:1;
+}
+
+#footer {
+	margin-top: 50px;
+}
+
+#footer #iconos {
+	margin: 10px 10px 0px 10px;
+  cursor: pointer;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+	font-family: 'zocial', sans-serif;
+}
+
+[class*="zocial-"]:hover {
+	font-family: 'zocial', sans-serif;
+	background-color: white;
+}
+
+#footer ul {
+  list-style-type: none;
+  margin: 0;
+ 	padding: 0;
+  overflow: hidden;
+}
+
+#footer ul li {
+	margin: 5px;
+  padding: 12px;
+	float: left;
+  position: relative;
+  left: 35%;
+  width: 2%;
+  color: black;
+  border: solid 3px black;
+  border-radius: 50%;
+}
+
+#footer #copyright {
+	margin: 0px 10px 15px 10px;
+	padding: 0px 5px 5px 5px;
+	font-family: 'Calibri';
+}
+
+#footer #copyright:hover {
+  color: white;
+}
+
+#footer #copyright p {
+	margin: 10px;
+	font-weight: bold;
+	font-size: 22px;
+}

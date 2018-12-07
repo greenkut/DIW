@@ -1,0 +1,74 @@
+body {
+	margin: 0px;
+	background-image: url("../images/fondo-madera.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Tangerine';
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+#page-container{
+	margin: auto;
+	width: 1000px;
+	height: auto;
+}
+
+#header {
+	margin: auto;
+	width: 500px;
+}
+
+#header h1 {
+	font-size: 4em;
+}
+
+#content {
+	float: left;
+	margin-top: 40px;
+	height: auto;
+	background-color: black;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+
+#content .cell {
+	float: left;
+	display: inline-block;
+	margin: 0.7em 0.6em 0.7em 0.6em;
+	width: 80px;
+	height: 80px;
+	border-radius: 18px;
+	background-color: white;
+	cursor: pointer;
+}
+
+#content .cell img:hover {
+	transition: 0.3s;
+	opacity: 1;
+}
+
+#content .cell a {
+	margin: 0px;
+	padding: 0px;
+}
+
+ .cell img {
+	margin: 0.3em;
+	padding: 0;
+	width: 70px;
+	height: 70px;
+	border-radius: 16px;
+	opacity: 0.8;
+}
+
+#footer {
+	float: clear;
+	margin: auto;
+	margin-top: .8em;
+	width: 800px;
+	height: auto;
+	font-family: 'Roboto Mono';
+	font-size: .8em;
+}
